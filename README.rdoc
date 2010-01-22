@@ -1,0 +1,10 @@
+= Tender
+
+This library has been created to easily allow Tender support integration with iPhone and Mac applications. While not all functionality has been implemented at this time, the core features are in place. 
+
+The library has been designed as a singleton, allowing you to more easily access it without having to explicitly alloc and release an instance each time you'd like to use it. 
+
+
+== Usage
+
+	NSDictionary *response = [[Tender shared] categories];
