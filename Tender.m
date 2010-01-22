@@ -10,8 +10,8 @@
 #import "JSON.h"
 
 static Tender *_sharedInstance;
-#define AUTH @"cf193772500ba8b1d9c40a6f0903cca98dcd4976"
-#define ACCOUNT_NAME @"storesync"
+#define AUTH @""
+#define ACCOUNT_NAME @""
 #define API_URL @"api.tenderapp.com"
 
 
