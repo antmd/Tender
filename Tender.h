@@ -17,7 +17,6 @@
 	NSURLConnection *connection;
 }
 
-@property (nonatomic, assign) BOOL error;
 @property (nonatomic, assign) BOOL finished;
 @property (nonatomic, assign) int responseCode;
 @property (nonatomic, retain) NSMutableData *responseData;
@@ -38,8 +37,7 @@
 - (NSDictionary *) section:(NSInteger) sectionID;
 
 - (NSDictionary *) createFAQ:(NSString *) title sectionID:(NSInteger)sectionID keywords:(NSString *)keywords body:(NSString *)body;
-
-- (NSString *) requestString:(NSDictionary *) payload;
+- (NSDictionary *) updateFAQ:(NSString *) title faqID:(NSInteger)faqID keywords:(NSString *)keywords body:(NSString *)body;
 
 
 @end
