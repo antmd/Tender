@@ -7,4 +7,6 @@ The library has been designed as a singleton, allowing you to more easily access
 
 == Usage
 
+Add your AUTH code and account permalink into the defines at the top of Tender.m
+
 	NSDictionary *response = [[Tender shared] categories];
